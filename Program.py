@@ -97,6 +97,11 @@ vis_speed = 1
 scale = 0.008  # 1 pixel = n metres
 
 K = db *((g*pf*(ps-pf))/u**2)**(1/3) # K value
+if 43.3 < K < 2360:
+    pass
+else: 
+    print("K value out of range") # printing an error and stopping the program if the K value is out of range
+    quit()
 
 db_label = db_myfont.render("Ball Diameter: "+str(db)+"m", 1, (0, 0, 0))
 screen.blit(db_label, (0, 0))
