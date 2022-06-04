@@ -71,7 +71,7 @@ elif fluid_material == 3:
     pf = pf_goldensyrup
     u = u_golensyrup
     fluid_colour = (230, 180, 0)
-elif liquid_material == 4:
+elif fluid_material == 4:
     pf = pf_ketchup
     u = u_ketchup
     fluid_colour = (187, 43, 27)
