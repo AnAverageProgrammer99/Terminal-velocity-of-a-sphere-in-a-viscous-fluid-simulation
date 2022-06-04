@@ -1,3 +1,4 @@
+When water is the fluid material and aluminium is the sphere material (1500 iterations)
 0.001 s |  Acceleration:  6.22737 m/s^2 | Velocity:  0.00623 m/s
 0.002 s |  Acceleration:  6.22728 m/s^2 | Velocity:  0.01245 m/s
 0.003 s |  Acceleration:  6.227 m/s^2 | Velocity:  0.01868 m/s
