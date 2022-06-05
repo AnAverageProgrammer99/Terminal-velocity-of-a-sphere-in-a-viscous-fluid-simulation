@@ -103,7 +103,7 @@ else:
     print("K value out of range") # printing an error and stopping the program if the K value is out of range
     quit()
 
-db_label = db_myfont.render("Ball Diameter: "+str(db)+"m", 1, (0, 0, 0))
+db_label = db_myfont.render("Sphere Diameter: "+str(db)+"m", 1, (0, 0, 0))
 screen.blit(db_label, (0, 0))
 vs_label = vs_myfont.render("Visualization Speed: "+str(vis_speed)+"x", 1, (0, 0, 0))
 screen.blit(vs_label, (0, 20))
